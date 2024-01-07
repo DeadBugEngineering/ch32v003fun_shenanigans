@@ -31,7 +31,7 @@ for extralibs: `../extralibs`, which is a relative path through the symlink
 
 # The Mini-projects
 
-## HiVoPuCounter
+## HiVoPuCounter (High Voltage Pulse Counter)
 This module is designed to log the information of a (here) Xenon-flashbulb that can be used to approximate the
 remaining life-time of it to be able to get good use out of each lamp but also prevents damage to optical components due to a
 light-bulb going through an unscheduled disassembly process. The energy of each pulse is dependent on the voltage across the
