@@ -1,4 +1,4 @@
-# Purpose of this repo:
+# Purpose of this repo
 This is a place for my ch32v003fun related mini-projects. It's mostly a place for me to test out a very small, well defined problem
 to either later contribute to the ch32v003fun repo or to test out an idea that might get integrated into some of my "work" projects.
 Most of my PoC code here is rough, unsafe and probably very buggy and should be used with a healthy amount of suspicion.
@@ -14,7 +14,7 @@ or specify your own forks
 ## Symlink
 To compile and upload, we need access to the ch32v003fun directory through symbolic links.  
 
-### Linux / MacOs:  
+### Linux / MacOs
 ```
 cd ch32v003fun_shenanigans
 ln -s ../ch32v003fun/ch32v003fun ch32v003fun
@@ -29,9 +29,9 @@ Thus, we can use these path references:
 for ch32v003fun_shenanigans lib: `../lib`, which is a direct relative path  
 for extralibs: `../extralibs`, which is a relative path through the symlink  
 
-# The Mini-projects:
+# The Mini-projects
 
-## HiVoPuCounter: 
+## HiVoPuCounter
 This module is designed to log the information of a (here) Xenon-flashbulb that can be used to approximate the
 remaining life-time of it to be able to get good use out of each lamp but also prevents damage to optical components due to a
 light-bulb going through an unscheduled disassembly process. The energy of each pulse is dependent on the voltage across the
