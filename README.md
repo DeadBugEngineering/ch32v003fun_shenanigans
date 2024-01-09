@@ -52,3 +52,4 @@ events. This detection method only counts the sharp dips in the voltage that occ
 slow decline of the voltage level that happens while deenergizing the device.
 The output via the OLED display shows the binning voltage and the amount of logged flashes and the UART outputs all bins with
 at least one count.
+[Shakey-cam footage of this module working inside a flashlamp device](https://photos.app.goo.gl/ucXu6dJsaja7br8Y7)
